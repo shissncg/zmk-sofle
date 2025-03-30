@@ -124,7 +124,7 @@
 &kp ESC           &to 0         &to 1           &kp LEFT_GUI  &kp LEFT_ALT  &to 4           &mkp LCLK        &kp ENTER          &kp SPACE       &kp ESC         &kp DELETE      &trans
             >;
 
-            sensor-bindings = = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
