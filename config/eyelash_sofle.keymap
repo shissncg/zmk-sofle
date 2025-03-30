@@ -121,7 +121,7 @@
 &kp TAB           &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &mkp LCLK          &mkp MCLK       &mkp RCLK       &trans          &trans          &trans
 &kp LSHFT         &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &rgb_ug RGB_OFF    &rgb_ug RGB_ON  &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug RGB_SPI &trans
 &kp LEFT_CONTROL  &to 0         &to 1           &to 2         &to 3         &to 4           &mmv MOVE_RIGHT  &trans             &trans          &sys_reset      &soft_off       &bootloader     &trans
-&kp ESC           &to 0         &to 1           &kp LEFT_GUI  &kp LEFT_ALT  &to 4           &mkp LCLK        &kp ENTER          &kp SPACE       &kp ESC         &kp DELETE      &trans
+&kp ESC           &sys_reset    &bootloader     &kp LEFT_GUI  &kp LEFT_ALT  &to 4           &mkp LCLK        &kp ENTER          &kp SPACE       &kp ESC         &kp DELETE      &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
