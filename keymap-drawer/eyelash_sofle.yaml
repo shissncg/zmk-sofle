@@ -379,8 +379,8 @@ layers:
   - $$mdi:progress-download$$
   - {type: held}
   - $$mdi:keyboard-esc$$
-  - {t: LAYER0, h: toggle}
-  - {t: layer1, h: toggle}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: Main, h: toggle}
